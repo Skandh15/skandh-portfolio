@@ -190,17 +190,3 @@ export let skills = {
         },
     ],
 }
-
-
-/* 
-
-Portfolio-Bootstrap-React by Joshua Daveston Ahimaz     
-
-My Portfolio:
-https://JAhimaz.github.io
-
-My Github: 
-https://Github.com/JAhimaz
-
-
-*/
