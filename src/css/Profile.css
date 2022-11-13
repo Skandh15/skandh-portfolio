@@ -74,7 +74,7 @@
     font-size: 1em;
 }
 
-.profile-twitter, .profile-linkedin, .profile-github {
+.profile-whatsapp, .profile-linkedin, .profile-call {
     color: var(--primary-color);
     font-size: 30px;
     text-align: center;
@@ -139,7 +139,7 @@
         font-size: 1em;
     }
 
-    .profile-twitter, .profile-linkedin, .profile-github {
+    .profile-whatsapp, .profile-linkedin, .profile-call {
         color: var(--primary-color);
         font-size: 30px;
         position: absolute;
@@ -147,18 +147,18 @@
         transition: font-size 0.2s;
     }
 
-    .profile-twitter:hover, .profile-linkedin:hover, .profile-github:hover {
+    .profile-whatsapp:hover, .profile-linkedin:hover, .profile-call:hover {
         color: var(--secondary-color);
         font-size: 35px;
         position: absolute;
     }
 
-    .profile-twitter {
+    .profile-whatsapp {
         left: 20%;
         bottom: -20%;
     }
 
-    .profile-github {
+    .profile-call {
         left: 46%;
         bottom: -30%;
     }
@@ -195,21 +195,21 @@
         line-height: 1.2em;
     }
 
-    .profile-twitter, .profile-linkedin, .profile-github {
+    .profile-whatsapp, .profile-linkedin, .profile-call {
         font-size: 35px;
     }
 
-    .profile-twitter:hover, .profile-linkedin:hover, .profile-github:hover {
+    .profile-whatsapp:hover, .profile-linkedin:hover, .profile-call:hover {
         font-size: 40px;
 
     }
 
-    .profile-twitter {
+    .profile-whatsapp {
         left: 25%;
         bottom: -15%;
     }
 
-    .profile-github {
+    .profile-call {
         left: 45%;
         bottom: -25%;
     }
@@ -257,21 +257,21 @@
         position: relative;
     }
 
-    .profile-twitter, .profile-linkedin, .profile-github {
+    .profile-whatsapp, .profile-linkedin, .profile-call {
         font-size: 35px;
     }
 
-    .profile-twitter:hover, .profile-linkedin:hover, .profile-github:hover {
+    .profile-whatsapp:hover, .profile-linkedin:hover, .profile-call:hover {
         font-size: 40px;
 
     }
 
-    .profile-twitter {
+    .profile-whatsapp {
         left: 25%;
         bottom: -10%;
     }
 
-    .profile-github {
+    .profile-call {
         left: 47.5%;
         bottom: -20%;
     }

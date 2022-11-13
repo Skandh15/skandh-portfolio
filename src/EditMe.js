@@ -75,20 +75,18 @@ export let navigation = {
 // Information ------------------------------------------------------------------------
 
 export let information = {
-    fullName: "John D. Doe", // Name in Profile Banner
+    fullName: "Skandh Gupta", // Name in Profile Banner
     welcomeMsg: "Welcome! I am,", // Welcome subheading above Name
-    aboutMe: "Short Description of yourself!", // Short Description
-    companyName: "Position @ Company", // Your position @ a Company
-    // Replace with the URL to your image (URL or Local Image)
-    profilePhoto: "https://st.depositphotos.com/2101611/3925/v/600/depositphotos_39258143-stock-illustration-businessman-avatar-profile-picture.jpg",
+    aboutMe: "Competent, diligent as well as polyglot professional having experience of 3+ years as a Full Stack Engineer.", // Short Description
+    companyName: "Senior Software Engineer @ United Health Group", // Your position @ a Company
 };
 
 // Socials ----------------------------------------------------------------------------
 
 export let socials = {
-    twitterURL: "https://twitter.com/", // Twitter
-    githubURL: "https://github.com/", // Github
-    linkedinURL: "https://www.linkedin.com/in/", // LinkedIn
+    whatsappURL: "https://wa.me/7897036241/", // Whatsapp
+    callURL: "tel:8470872457", // Call Number
+    linkedinURL: "https://www.linkedin.com/in/skandh-gupta/", // LinkedIn
 };
 
 // About Me ----------------------------------------------------------------------------
@@ -174,14 +172,22 @@ export let skills = {
     skillsData: [
         // Each Skill will have the title, value for the chart, color, experience (years, months) and a desscription on the task
         // Some examples are shown below
-        { title: 'ReactJS', value: 45, color: '#28ACEA', experience: '3 years',
-        description: 'Built multiple ReactJS based websites with integration of NodeJS and Redux'},
-        { title: 'Java', value: 25, color: '#19CEEB', experience: '2 years',
-        description: 'Worked on multiple Minecraft Plugins and Text-Based Adventure Survival CLI game'},
-        { title: 'C++', value: 10, color: '#09EBEE', experience: '1 year',
-        description: 'Sorting system of user class information'},
-        { title: 'Others', value: 20, color: '#00FEEF', experience: '1 year',
-        description: 'Experience with Game Development such as Unity (C#) having 2 published games on the Play Store.'},
+        {
+            title: 'ReactJS', value: 45, color: '#28ACEA', experience: '3 years',
+            description: 'Built multiple ReactJS based websites with integration of NodeJS and Redux'
+        },
+        {
+            title: 'Java', value: 25, color: '#19CEEB', experience: '2 years',
+            description: 'Worked on multiple Minecraft Plugins and Text-Based Adventure Survival CLI game'
+        },
+        {
+            title: 'C++', value: 10, color: '#09EBEE', experience: '1 year',
+            description: 'Sorting system of user class information'
+        },
+        {
+            title: 'Others', value: 20, color: '#00FEEF', experience: '1 year',
+            description: 'Experience with Game Development such as Unity (C#) having 2 published games on the Play Store.'
+        },
     ],
 }
 
