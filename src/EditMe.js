@@ -24,7 +24,7 @@ export let pageStyling = {
 
 export let navigation = {
     navLogo: { // Navigation Logo
-        enabled: true, // Do you want to use a Branding?
+        enabled: false, // Do you want to use a Branding?
         isImage: false, // Do you want to use an Image? If not, alt text will be used
         imageURL: "https://www.wilsonfamilychiropracticcenter.net/wp-content/uploads/2018/12/placeholder-logo-2.png",
         logoWidth: "75px", // Size of your logo, adjustable without the CSS
@@ -34,7 +34,7 @@ export let navigation = {
 
     leftNavigation: [ // Add items to the left side of the navigation Bar
         {
-            text: "_External",
+            text: "",
             url: "#",
         },
     ],
@@ -58,7 +58,7 @@ export let navigation = {
         },
         {
             text: "_Contact",
-            url: "#",
+            url: "mailto:skandh15@outlook.com",
         },
     ],
 
@@ -68,7 +68,7 @@ export let navigation = {
         enabled: true, // Enable / Disable
         downloadIcon: true, // Show Icon
         text: "Resume", // Text on Button
-        url: "https://google.com", // Make sure to include https:// or http://. This is the download link to your stored Resume
+        url: "https://drive.google.com/file/d/1rSxGPk_mOeGG5UJbxYsmYZVeSJvE6zBl/view?usp=sharing", // Make sure to include https:// or http://. This is the download link to your stored Resume
     }
 };
 
