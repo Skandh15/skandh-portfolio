@@ -84,7 +84,7 @@ export let information = {
 // Socials ----------------------------------------------------------------------------
 
 export let socials = {
-    whatsappURL: "https://wa.me/7897036241/", // Whatsapp
+    whatsappURL: "https://wa.me/8470872457/", // Whatsapp
     callURL: "tel:8470872457", // Call Number
     linkedinURL: "https://www.linkedin.com/in/skandh-gupta/", // LinkedIn
 };
@@ -140,21 +140,7 @@ export let experience = {
                     description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sodales lectus ex, nec lacinia libero finibus in. Sed at mattis justo, feugiat cursus sapien. Proin blandit nisi nec mi iaculis, ac viverra felis sollicitudin. Aliquam rhoncus porta magna, non lacinia ipsum aliquam vitae. Vivamus fermentum dapibus mauris, varius consequat velit viverra egestas. Nunc eget lacus in tortor ultricies dignissim eget a eros. Suspendisse volutpat sit amet lorem non consectetur. Fusce sed ultricies felis.",
                 },
             ],
-        },
-        {
-            companyLogo: "", // Leave Blank for Template Logo
-            companyName: "The Old Company", // Company Name
-            companyLocation: "United Kingdom", // Location of Company
-            roles: [ // Each company can have multiple Roles
-                {
-                    role: "Junior Full-Stack Developer",
-                    type: "Part-Time", // Full-Time, Part-Time, Internship, etc...
-                    startPeriod: "Dec 2019", // Preferable format
-                    endPeriod: "Jan 2020", // End result will look like "Apr 2020 - Present"
-                    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sodales lectus ex, nec lacinia libero finibus in. Sed at mattis justo, feugiat cursus sapien. Proin blandit nisi nec mi iaculis, ac viverra felis sollicitudin. Aliquam rhoncus porta magna, non lacinia ipsum aliquam vitae. Vivamus fermentum dapibus mauris, varius consequat velit viverra egestas. Nunc eget lacus in tortor ultricies dignissim eget a eros. Suspendisse volutpat sit amet lorem non consectetur. Fusce sed ultricies felis.",
-                },
-            ],
-        },
+        }
     ]
 };
 
