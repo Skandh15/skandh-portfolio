@@ -100,20 +100,13 @@ export let aboutMe = {
 
 export let portfolioCards = [
     {
-        projectTitle: "My Project 1",
-        projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sodales lectus ex, nec lacinia libero finibus in. Sed at mattis justo, feugiat cursus sapien. Proin blandit nisi nec mi iaculis, ac viverra felis sollicitudin. Aliquam rhoncus porta magna, non lacinia ipsum aliquam vitae. Vivamus fermentum dapibus mauris, varius consequat velit viverra egestas. Nunc eget lacus in tortor ultricies dignissim eget a eros. Suspendisse volutpat sit amet lorem non consectetur. Fusce sed ultricies felis.",
-        projectURL: "https://github.com/",
+        projectTitle: "Care Explorer",
+        projectDesc: "Care explorer is a microproduct which bridges the gap between challenges users are facing with finding care by walking them through the certain steps like goals, needs and standard assessments like phq4, phq9, gad7 and then find the right for users."
     },
     {
-        projectTitle: "My Project 2",
-        projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sodales lectus ex, nec lacinia libero finibus in. Sed at mattis justo, feugiat cursus sapien. Proin blandit nisi nec mi iaculis, ac viverra felis sollicitudin. Aliquam rhoncus porta magna, non lacinia ipsum aliquam vitae. Vivamus fermentum dapibus mauris, varius consequat velit viverra egestas. Nunc eget lacus in tortor ultricies dignissim eget a eros. Suspendisse volutpat sit amet lorem non consectetur. Fusce sed ultricies felis.",
-        projectURL: "https://github.com/",
-    },
-    {
-        projectTitle: "My Project 3",
-        projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sodales lectus ex, nec lacinia libero finibus in. Sed at mattis justo, feugiat cursus sapien. Proin blandit nisi nec mi iaculis, ac viverra felis sollicitudin. Aliquam rhoncus porta magna, non lacinia ipsum aliquam vitae. Vivamus fermentum dapibus mauris, varius consequat velit viverra egestas. Nunc eget lacus in tortor ultricies dignissim eget a eros. Suspendisse volutpat sit amet lorem non consectetur. Fusce sed ultricies felis.",
-        projectURL: "https://github.com/",
-    },
+        projectTitle: "Live and Work Well",
+        projectDesc: "Since UHG is a product-based organization and Live and Work Well is inhouse product. It is one of the largest consumer portals with more than 30 million members able to access their behavioral benefits. Live and Work Well is currently serving more than 11,304,564 active users."
+    }
 ];
 
 // Experience -------------------------------------------------------------------------
