@@ -92,7 +92,7 @@ export let socials = {
 // About Me ----------------------------------------------------------------------------
 
 export let aboutMe = {
-    description: "I am ambitious and driven. I thrive on challenge and constantly set goals for myself, so I have something to strive towards. I am always looking for an opportunity to do better and achieve greatness. I am passionate about my work. Because I love what I do, I have a steady source of motivation that drives me to do my best. In my previous role, I was promoted two times in less than 3 years.",
+    description: "I am ambitious and driven. I thrive on challenge and constantly set goals for myself, so I have something to strive towards. I am always looking for an opportunity to do better and achieve greatness. I am passionate about my work. Because I love what I do, I have a steady source of motivation that drives me to do my best. I love learning new technologies out there. In my previous role, I was promoted two times in less than 3 years.",
     quote: "\"The Best Preparation For Tommorow Is Doing Your Best Today.\"",
 };
 
