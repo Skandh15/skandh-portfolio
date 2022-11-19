@@ -92,7 +92,7 @@ export let socials = {
 // About Me ----------------------------------------------------------------------------
 
 export let aboutMe = {
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sodales lectus ex, nec lacinia libero finibus in. Sed at mattis justo, feugiat cursus sapien. Proin blandit nisi nec mi iaculis, ac viverra felis sollicitudin. Aliquam rhoncus porta magna, non lacinia ipsum aliquam vitae. Vivamus fermentum dapibus mauris, varius consequat velit viverra egestas. Nunc eget lacus in tortor ultricies dignissim eget a eros. Suspendisse volutpat sit amet lorem non consectetur. Fusce sed ultricies felis.",
+    description: "I am ambitious and driven. I thrive on challenge and constantly set goals for myself, so I have something to strive towards. I am always looking for an opportunity to do better and achieve greatness. I am passionate about my work. Because I love what I do, I have a steady source of motivation that drives me to do my best. In my previous role, I was promoted two times in less than 3 years.",
     quote: "\"The Best Preparation For Tommorow Is Doing Your Best Today.\"",
 };
 
