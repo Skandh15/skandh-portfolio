@@ -84,7 +84,7 @@ export let information = {
 // Socials ----------------------------------------------------------------------------
 
 export let socials = {
-    whatsappURL: "https://wa.me/7897036241/", // Whatsapp
+    whatsappURL: "https://wa.me/8470872457/", // Whatsapp
     callURL: "tel:8470872457", // Call Number
     linkedinURL: "https://www.linkedin.com/in/skandh-gupta/", // LinkedIn
 };
@@ -92,7 +92,7 @@ export let socials = {
 // About Me ----------------------------------------------------------------------------
 
 export let aboutMe = {
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sodales lectus ex, nec lacinia libero finibus in. Sed at mattis justo, feugiat cursus sapien. Proin blandit nisi nec mi iaculis, ac viverra felis sollicitudin. Aliquam rhoncus porta magna, non lacinia ipsum aliquam vitae. Vivamus fermentum dapibus mauris, varius consequat velit viverra egestas. Nunc eget lacus in tortor ultricies dignissim eget a eros. Suspendisse volutpat sit amet lorem non consectetur. Fusce sed ultricies felis.",
+    description: "I am ambitious and driven. I thrive on challenge and constantly set goals for myself, so I have something to strive towards. I am always looking for an opportunity to do better and achieve greatness. I am passionate about my work. Because I love what I do, I have a steady source of motivation that drives me to do my best. I love learning new technologies out there. In my previous role, I was promoted two times in less than 3 years.",
     quote: "\"The Best Preparation For Tommorow Is Doing Your Best Today.\"",
 };
 
@@ -100,20 +100,13 @@ export let aboutMe = {
 
 export let portfolioCards = [
     {
-        projectTitle: "My Project 1",
-        projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sodales lectus ex, nec lacinia libero finibus in. Sed at mattis justo, feugiat cursus sapien. Proin blandit nisi nec mi iaculis, ac viverra felis sollicitudin. Aliquam rhoncus porta magna, non lacinia ipsum aliquam vitae. Vivamus fermentum dapibus mauris, varius consequat velit viverra egestas. Nunc eget lacus in tortor ultricies dignissim eget a eros. Suspendisse volutpat sit amet lorem non consectetur. Fusce sed ultricies felis.",
-        projectURL: "https://github.com/",
+        projectTitle: "Care Explorer",
+        projectDesc: "Care explorer is a microproduct which bridges the gap between challenges users are facing with finding care by walking them through the certain steps like goals, needs and standard assessments like phq4, phq9, gad7 and then find the right for users."
     },
     {
-        projectTitle: "My Project 2",
-        projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sodales lectus ex, nec lacinia libero finibus in. Sed at mattis justo, feugiat cursus sapien. Proin blandit nisi nec mi iaculis, ac viverra felis sollicitudin. Aliquam rhoncus porta magna, non lacinia ipsum aliquam vitae. Vivamus fermentum dapibus mauris, varius consequat velit viverra egestas. Nunc eget lacus in tortor ultricies dignissim eget a eros. Suspendisse volutpat sit amet lorem non consectetur. Fusce sed ultricies felis.",
-        projectURL: "https://github.com/",
-    },
-    {
-        projectTitle: "My Project 3",
-        projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sodales lectus ex, nec lacinia libero finibus in. Sed at mattis justo, feugiat cursus sapien. Proin blandit nisi nec mi iaculis, ac viverra felis sollicitudin. Aliquam rhoncus porta magna, non lacinia ipsum aliquam vitae. Vivamus fermentum dapibus mauris, varius consequat velit viverra egestas. Nunc eget lacus in tortor ultricies dignissim eget a eros. Suspendisse volutpat sit amet lorem non consectetur. Fusce sed ultricies felis.",
-        projectURL: "https://github.com/",
-    },
+        projectTitle: "Live and Work Well",
+        projectDesc: "Since UHG is a product-based organization and Live and Work Well is inhouse product. It is one of the largest consumer portals with more than 30 million members able to access their behavioral benefits. Live and Work Well is currently serving more than 11,304,564 active users."
+    }
 ];
 
 // Experience -------------------------------------------------------------------------
@@ -140,21 +133,7 @@ export let experience = {
                     description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sodales lectus ex, nec lacinia libero finibus in. Sed at mattis justo, feugiat cursus sapien. Proin blandit nisi nec mi iaculis, ac viverra felis sollicitudin. Aliquam rhoncus porta magna, non lacinia ipsum aliquam vitae. Vivamus fermentum dapibus mauris, varius consequat velit viverra egestas. Nunc eget lacus in tortor ultricies dignissim eget a eros. Suspendisse volutpat sit amet lorem non consectetur. Fusce sed ultricies felis.",
                 },
             ],
-        },
-        {
-            companyLogo: "", // Leave Blank for Template Logo
-            companyName: "The Old Company", // Company Name
-            companyLocation: "United Kingdom", // Location of Company
-            roles: [ // Each company can have multiple Roles
-                {
-                    role: "Junior Full-Stack Developer",
-                    type: "Part-Time", // Full-Time, Part-Time, Internship, etc...
-                    startPeriod: "Dec 2019", // Preferable format
-                    endPeriod: "Jan 2020", // End result will look like "Apr 2020 - Present"
-                    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sodales lectus ex, nec lacinia libero finibus in. Sed at mattis justo, feugiat cursus sapien. Proin blandit nisi nec mi iaculis, ac viverra felis sollicitudin. Aliquam rhoncus porta magna, non lacinia ipsum aliquam vitae. Vivamus fermentum dapibus mauris, varius consequat velit viverra egestas. Nunc eget lacus in tortor ultricies dignissim eget a eros. Suspendisse volutpat sit amet lorem non consectetur. Fusce sed ultricies felis.",
-                },
-            ],
-        },
+        }
     ]
 };
 
