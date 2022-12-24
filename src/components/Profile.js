@@ -1,10 +1,10 @@
-import React from 'react';
-import { Container, Col, Row } from 'react-bootstrap';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import '../css/Profile.css';
-import { faViber, faWhatsapp, faLinkedin } from '@fortawesome/free-brands-svg-icons'
-import { information, socials } from '../EditMe';
-import profile from '../profile.jpg';
+import React from "react";
+import { Container, Col, Row } from "react-bootstrap";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import "../css/Profile.css";
+import { faViber, faWhatsapp, faLinkedin } from "@fortawesome/free-brands-svg-icons";
+import { information, socials } from "../EditMe";
+import profile from "../profile.jpg";
 
 function Profile() {
     return (
@@ -16,16 +16,35 @@ function Profile() {
                 </Col>
                 <Col className="column-profile" xs={12} lg={4}>
                     <div className="profile">
-                        <img className="profile-img" src={profile} alt={information.fullName + "'s profile"}></img>
+                        <img
+                            className="profile-img"
+                            src={profile}
+                            alt={information.fullName + "'s profile"}
+                        ></img>
                     </div>
                     <div className="profile-socials">
-                        <a target="_blank" rel="noreferrer" href={socials.whatsappURL} className="profile-whatsapp">
+                        <a
+                            target="_blank"
+                            rel="noreferrer"
+                            href={socials.whatsappURL}
+                            className="profile-whatsapp"
+                        >
                             <FontAwesomeIcon icon={faWhatsapp} />
                         </a>
-                        <a target="_blank" rel="noreferrer" href={socials.callURL} className="profile-call">
+                        <a
+                            target="_blank"
+                            rel="noreferrer"
+                            href={socials.callURL}
+                            className="profile-call"
+                        >
                             <FontAwesomeIcon icon={faViber} />
                         </a>
-                        <a target="_blank" rel="noreferrer" href={socials.linkedinURL} className="profile-linkedin">
+                        <a
+                            target="_blank"
+                            rel="noreferrer"
+                            href={socials.linkedinURL}
+                            className="profile-linkedin"
+                        >
                             <FontAwesomeIcon icon={faLinkedin} />
                         </a>
                     </div>

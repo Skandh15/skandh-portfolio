@@ -1,12 +1,11 @@
-import React from 'react';
-import { Container, Row, Col } from 'react-bootstrap';
-import { PieChart } from 'react-minimal-pie-chart';
-import '../css/Skills.css';
-import { } from '@fortawesome/free-solid-svg-icons'
-import { skills } from '../EditMe';
+import React from "react";
+import { Container, Row, Col } from "react-bootstrap";
+import { PieChart } from "react-minimal-pie-chart";
+import "../css/Skills.css";
+import { } from "@fortawesome/free-solid-svg-icons";
+import { skills } from "../EditMe";
 
 function Skills() {
-
     return (
         <Container className="skills-section">
             <Row>
@@ -25,11 +24,17 @@ function Skills() {
                     />
                 </Col>
                 <Col xs={12} sm={6} className="skills-panel">
-                    {skills.skillsData.map((skill) =>
-                        <>
-                            <p><span className="skills-highlight">{skill.title}</span><br />- {skill.description}<br />Experience: <span className="skills-highlight">{skill.experience}</span></p>
-                        </>
-                    )}
+                    {skills.skillsData.map((skill) => (
+                        <span>
+                            <p>
+                                <span className="skills-highlight">{skill.title}</span>
+                                <br />- {skill.description}
+                                <br />
+                                Experience:{" "}
+                                <span className="skills-highlight">{skill.experience}</span>
+                            </p>
+                        </span>
+                    ))}
                 </Col>
             </Row>
         </Container>
