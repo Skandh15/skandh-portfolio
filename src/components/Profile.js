@@ -1,14 +1,8 @@
 import React from 'react';
-
-import { Container, Col, 
-    Row } from 'react-bootstrap';
+import { Container, Col, Row } from 'react-bootstrap';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-
 import '../css/Profile.css';
-
 import { faViber, faWhatsapp, faLinkedin } from '@fortawesome/free-brands-svg-icons'
-
-// Value Import
 import { information, socials } from '../EditMe';
 import profile from '../profile.jpg';
 
@@ -26,13 +20,13 @@ function Profile() {
                     </div>
                     <div className="profile-socials">
                         <a target="_blank" rel="noreferrer" href={socials.whatsappURL} className="profile-whatsapp">
-                            <FontAwesomeIcon icon = { faWhatsapp } />
+                            <FontAwesomeIcon icon={faWhatsapp} />
                         </a>
                         <a target="_blank" rel="noreferrer" href={socials.callURL} className="profile-call">
-                            <FontAwesomeIcon icon = { faViber } />
+                            <FontAwesomeIcon icon={faViber} />
                         </a>
                         <a target="_blank" rel="noreferrer" href={socials.linkedinURL} className="profile-linkedin">
-                            <FontAwesomeIcon icon = { faLinkedin } />
+                            <FontAwesomeIcon icon={faLinkedin} />
                         </a>
                     </div>
                 </Col>
