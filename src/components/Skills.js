@@ -24,8 +24,8 @@ function Skills() {
                     />
                 </Col>
                 <Col xs={12} sm={6} className="skills-panel">
-                    {skills.skillsData.map((skill) => (
-                        <span>
+                    {skills.skillsData.map((skill, key) => (
+                        <span key={key}>
                             <p>
                                 <span className="skills-highlight">{skill.title}</span>
                                 <br />- {skill.description}

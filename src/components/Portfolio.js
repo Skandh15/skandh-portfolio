@@ -7,8 +7,8 @@ function Portfolio() {
     return (
         <Container className="portfolio-container">
             <Row style={{ justifyContent: "center" }}>
-                {portfolioCards.map((card) => (
-                    <Col xs={12} md={6} lg={4} className="portfolio-card">
+                {portfolioCards.map((card, key) => (
+                    <Col xs={12} md={6} lg={4} className="portfolio-card" key={key}>
                         <div className="card-info">
                             <Row>
                                 <Col xs={10} className="card-title">
