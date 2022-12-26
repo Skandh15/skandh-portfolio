@@ -1,5 +1,5 @@
 import React from "react";
-import { Container, Row, Col } from "react-bootstrap";
+import { Row, Col } from "react-bootstrap";
 import { PieChart } from "react-minimal-pie-chart";
 import "../css/Skills.css";
 import { } from "@fortawesome/free-solid-svg-icons";
@@ -7,9 +7,9 @@ import { skills } from "../EditMe";
 
 function Skills() {
     return (
-        <Container className="skills-section">
-            <Row>
-                <Col xs={12} sm={6}>
+        <div className="skills-section">
+            <Row className="row-section">
+                <Col xs={12} sm={3}>
                     <PieChart
                         data={skills.skillsData}
                         label={({ dataEntry }) => dataEntry.title}
@@ -23,7 +23,7 @@ function Skills() {
                         paddingAngle={skills.paddingAngle}
                     />
                 </Col>
-                <Col xs={12} sm={6} className="skills-panel">
+                <Col xs={12} sm={3} className="skills-panel">
                     {skills.skillsData.map((skill, key) => (
                         <span key={key}>
                             <p>
@@ -37,7 +37,7 @@ function Skills() {
                     ))}
                 </Col>
             </Row>
-        </Container>
+        </div>
     );
 }
 

@@ -12,7 +12,6 @@ import Particles from "react-particles-js";
 import Navigation from "./components/Navigation";
 import Profile from "./components/Profile";
 import AboutMe from "./components/AboutMe";
-import Portfolio from "./components/Portfolio";
 import Experience from "./components/Experience";
 import Skills from "./components/Skills";
 
@@ -83,10 +82,6 @@ function App() {
           <></>
         </a>
         <AboutMe />
-        <a name="portfolio" href="#/">
-          <></>
-        </a>
-        <Portfolio />
         <a name="experience" href="#/">
           <></>
         </a>

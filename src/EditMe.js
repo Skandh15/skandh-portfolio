@@ -45,10 +45,6 @@ export let navigation = {
             url: "#aboutme", // Anchor points or External URLS, you may have to edit the App.js to add Anchors
         },
         {
-            text: "_Portfolio",
-            url: "#portfolio",
-        },
-        {
             text: "_Experience",
             url: "#experience",
         },

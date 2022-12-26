@@ -1,5 +1,7 @@
 .skills-section {
   margin: 5em 0;
+  background-color: var(--bg-over);
+  width: 100%;
 }
 
 .skills-panel {
@@ -19,4 +21,10 @@
     padding-left: 2.5em;
     border-left: 1px solid rgba(255, 255, 255, 0.068);
   }
+}
+.row-section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 5em;
 }
