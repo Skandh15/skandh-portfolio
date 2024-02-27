@@ -268,5 +268,3 @@ export let skills = {
 <!-- For a full guide with images head over to the [WIKI](https://github.com/JAhimaz/portfolio-bootstrap-react/wiki) -->
 
 <hr>
-
-@JAhimaz - https://github.com/JAhimaz
